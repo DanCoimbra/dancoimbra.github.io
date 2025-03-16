@@ -10,24 +10,7 @@
     <header>
         <h1>Your Name</h1>
         <nav>
-            <ul>
-                <li><a href="#bio">Bio</a></li>
-                <li><a href="#links">Links</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="bio">
-            <h2>About Me</h2>
-            <img src="media/dancoimbra.png" alt="Daniel Coimbra" class="bio-photo">
-            <p>Independent philosopher (MA), professional computer scientist (Bsc). <img src="media/brazil.svg" alt="Brazilian flag" class="flag-icon">
-            </p>
-        </section>
-
-        <section id="links">
-            <h2>Explore My Work</h2>
-            <ul>
+            <ul class="navbar">
                 <li><a href="study-notes.html">Study Notes</a></li>
                 <li><a href="thoughts.html">Epigrammatic Thoughts</a></li>
                 <li><a href="book-reviews.html">Book Reviews</a></li>
@@ -38,6 +21,20 @@
                 <li><a href="video-essays.html">Video Essays</a></li>
                 <li><a href="recommendations.html">Cool Stuff I Recommend</a></li>
             </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bio" class="bio-section">
+            <div class="bio-text">
+                <h2>About Me</h2>
+                <p>Independent philosopher (MA), professional computer scientist (Bsc). 
+                    <img src="media/brazil.svg" alt="Brazilian flag" class="flag-icon">
+                </p>
+            </div>
+            <div class="bio-photo-container">
+                <img src="media/dancoimbra.png" alt="Daniel Coimbra" class="bio-photo">
+            </div>
         </section>
     </main>
 

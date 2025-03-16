@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -17,40 +18,44 @@ header h1 {
     margin: 0;
 }
 
-nav ul {
+/* Navbar Styles */
+.navbar {
     padding: 0;
     list-style-type: none;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+.navbar li {
+    display: inline-block;
+    margin-right: 15px;
 }
 
-a {
+.navbar a {
     color: #1a73e8;
     text-decoration: none;
 }
 
-a:hover {
+.navbar a:hover {
     text-decoration: underline;
 }
 
-section {
-    margin-bottom: 2rem;
+/* Bio Section Styles */
+.bio-section {
+    display: flex; /* Creates a two-column layout */
+    align-items: center; /* Vertically aligns content */
 }
 
-footer {
-    text-align: center;
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #f4f4f4;
+.bio-text {
+    flex: 1; /* Left column for text */
+}
+
+.bio-photo-container {
+    flex: 1; /* Right column for photo */
 }
 
 .bio-photo {
-    width: 300px;
+    width: 200px; /* Adjusted size for better proportions */
     height: auto;
-    border-radius: 80%;
+    border-radius: 50%; /* Circular photo */
 }
 
 .flag-icon {
@@ -58,4 +63,12 @@ footer {
     height: auto;
     vertical-align: middle;
     margin-left: 5px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
 }
