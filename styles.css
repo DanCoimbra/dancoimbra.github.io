@@ -46,3 +46,16 @@ footer {
     padding: 1rem;
     background-color: #f4f4f4;
 }
+
+.bio-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 80%;
+}
+
+.flag-icon {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 5px;
+}
